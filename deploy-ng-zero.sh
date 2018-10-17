@@ -1,5 +1,8 @@
 #!/bin/sh -x
 
+# Building the project for the Git Pages project
+# ng build --prod --base-href /stephaneeybert/ng-zero/
+
 cd ~/dev/github/pages/stephaneeybert
 
 rm -fr ~/dev/github/pages/stephaneeybert/ng-zero/*
