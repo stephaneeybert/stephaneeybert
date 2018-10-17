@@ -8,7 +8,7 @@ cp -R ~/dev/js/projects/angular/ng-zero/dist/* ./ng-zero/
 
 git add ng-zero/
 
-git commit -m "Deployed the ng-zero application the `date +%Y-%m-%d` at `date +%H-%M`"
+git commit -m "Deployed the ng-zero application the `date +%Y-%m-%d` at `date +%H:%M`"
 
 git pull
 
