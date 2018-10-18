@@ -7,6 +7,8 @@ cd ~/dev/github/pages/stephaneeybert
 
 git rm -r ng-zero/*
 
+mkdir ng-zero
+
 cp -R ~/dev/js/projects/angular/ng-zero/dist/* ./ng-zero/
 
 git add ng-zero/
