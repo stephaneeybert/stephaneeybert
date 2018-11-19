@@ -319,16 +319,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _core_login_login_component__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./core/login/login.component */ "./src/app/core/login/login.component.ts");
 /* harmony import */ var _views_user_users_component__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./views/user/users.component */ "./src/app/views/user/users.component.ts");
 /* harmony import */ var _views_user_user_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./views/user/user.component */ "./src/app/views/user/user.component.ts");
-/* harmony import */ var _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/dashboard/dashboard.component */ "./src/app/views/dashboard/dashboard.component.ts");
-/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
-/* harmony import */ var _core_login_login_dialog_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./core/login/login-dialog.component */ "./src/app/core/login/login-dialog.component.ts");
-/* harmony import */ var _views_header_header_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./views/header/header.component */ "./src/app/views/header/header.component.ts");
+/* harmony import */ var _views_user_user_confirmed_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./views/user/user-confirmed.component */ "./src/app/views/user/user-confirmed.component.ts");
+/* harmony import */ var _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./views/dashboard/dashboard.component */ "./src/app/views/dashboard/dashboard.component.ts");
+/* harmony import */ var _environments_environment__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ../environments/environment */ "./src/environments/environment.ts");
+/* harmony import */ var _core_login_login_dialog_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./core/login/login-dialog.component */ "./src/app/core/login/login-dialog.component.ts");
+/* harmony import */ var _views_user_user_dialog_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./views/user/user-dialog.component */ "./src/app/views/user/user-dialog.component.ts");
+/* harmony import */ var _views_header_header_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./views/header/header.component */ "./src/app/views/header/header.component.ts");
+/* harmony import */ var _app_views_user_user_edit_component__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! @app/views/user/user-edit.component */ "./src/app/views/user/user-edit.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+
 
 
 
@@ -359,19 +365,22 @@ var AppModule = /** @class */ (function () {
                 _app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"],
                 _views_user_users_component__WEBPACK_IMPORTED_MODULE_15__["UsersComponent"],
                 _views_user_user_component__WEBPACK_IMPORTED_MODULE_16__["UserComponent"],
+                _views_user_user_confirmed_component__WEBPACK_IMPORTED_MODULE_17__["UserConfirmedComponent"],
+                _app_views_user_user_edit_component__WEBPACK_IMPORTED_MODULE_23__["UserEditComponent"],
                 _core_messages_messages_component__WEBPACK_IMPORTED_MODULE_11__["MessagesComponent"],
-                _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_17__["DashboardComponent"],
+                _views_dashboard_dashboard_component__WEBPACK_IMPORTED_MODULE_18__["DashboardComponent"],
                 _layouts_secured_layout__WEBPACK_IMPORTED_MODULE_12__["SecuredLayoutComponent"],
                 _layouts_unsecured_layout__WEBPACK_IMPORTED_MODULE_13__["UnsecuredLayoutComponent"],
                 _core_login_login_component__WEBPACK_IMPORTED_MODULE_14__["LoginComponent"],
-                _core_login_login_dialog_component__WEBPACK_IMPORTED_MODULE_19__["LoginDialogComponent"],
-                _views_header_header_component__WEBPACK_IMPORTED_MODULE_20__["HeaderComponent"],
+                _core_login_login_dialog_component__WEBPACK_IMPORTED_MODULE_20__["LoginDialogComponent"],
+                _views_header_header_component__WEBPACK_IMPORTED_MODULE_22__["HeaderComponent"],
+                _views_user_user_dialog_component__WEBPACK_IMPORTED_MODULE_21__["UserDialogComponent"]
             ],
             imports: [
                 _core_module__WEBPACK_IMPORTED_MODULE_4__["CoreModule"],
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
                 _angular_cdk_layout__WEBPACK_IMPORTED_MODULE_2__["LayoutModule"],
-                _angular_service_worker__WEBPACK_IMPORTED_MODULE_3__["ServiceWorkerModule"].register('ngsw-worker.js', { enabled: _environments_environment__WEBPACK_IMPORTED_MODULE_18__["environment"].production }),
+                _angular_service_worker__WEBPACK_IMPORTED_MODULE_3__["ServiceWorkerModule"].register('ngsw-worker.js', { enabled: _environments_environment__WEBPACK_IMPORTED_MODULE_19__["environment"].production }),
                 _app_routing_module__WEBPACK_IMPORTED_MODULE_5__["AppRoutingModule"],
                 _core_error__WEBPACK_IMPORTED_MODULE_6__["ErrorModule"],
                 _core_auth_auth_module__WEBPACK_IMPORTED_MODULE_8__["AuthModule"],
@@ -379,7 +388,8 @@ var AppModule = /** @class */ (function () {
                 _app_gui_module__WEBPACK_IMPORTED_MODULE_7__["AppGuiModule"],
             ],
             entryComponents: [
-                _core_login_login_dialog_component__WEBPACK_IMPORTED_MODULE_19__["LoginDialogComponent"]
+                _core_login_login_dialog_component__WEBPACK_IMPORTED_MODULE_20__["LoginDialogComponent"],
+                _views_user_user_dialog_component__WEBPACK_IMPORTED_MODULE_21__["UserDialogComponent"]
             ],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_10__["AppComponent"]]
         })
@@ -429,6 +439,7 @@ var __param = (undefined && undefined.__param) || function (paramIndex, decorato
 
 
 
+// TODO Should the core module only contains services ?
 var CoreModule = /** @class */ (function () {
     // Make sure the core module is imported only once as it contains all global services which are to be singletons
     function CoreModule(coreModule) {
@@ -2443,6 +2454,7 @@ var MaterialModule = /** @class */ (function () {
                 _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatFormFieldModule"],
                 _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatInputModule"],
+                _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatSlideToggleModule"]
             ]
         })
     ], MaterialModule);
@@ -2589,6 +2601,258 @@ var HeaderComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [_core_service_login_service__WEBPACK_IMPORTED_MODULE_1__["LoginService"]])
     ], HeaderComponent);
     return HeaderComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/views/user/user-confirmed.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/views/user/user-confirmed.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<mat-slide-toggle [(ngModel)]=\"confirmed\" (change)=\"toggleConfirmed(event)\" color=\"primary\"></mat-slide-toggle>"
+
+/***/ }),
+
+/***/ "./src/app/views/user/user-confirmed.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/views/user/user-confirmed.component.ts ***!
+  \********************************************************/
+/*! exports provided: UserConfirmedComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserConfirmedComponent", function() { return UserConfirmedComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _user_user_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../user/user.service */ "./src/app/views/user/user.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var UserConfirmedComponent = /** @class */ (function () {
+    function UserConfirmedComponent(userService) {
+        this.userService = userService;
+        this.confirmedChange = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+    }
+    UserConfirmedComponent.prototype.toggleConfirmed = function () {
+        var _this = this;
+        this.userService.get(this.userId)
+            .subscribe(function (user) {
+            user.confirmedEmail = !user.confirmedEmail;
+            _this.userService.partialUpdate(user)
+                .subscribe(function (updatedUser) {
+                _this.update(updatedUser.confirmedEmail);
+                _this.confirmedChange.emit(updatedUser.id);
+            });
+        });
+    };
+    UserConfirmedComponent.prototype.ngOnChanges = function () {
+        var _this = this;
+        this.userService.get(this.userId)
+            .subscribe(function (user) {
+            _this.update(user.confirmedEmail);
+        });
+    };
+    UserConfirmedComponent.prototype.update = function (confirmedEmail) {
+        this.confirmed = confirmedEmail;
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", Number)
+    ], UserConfirmedComponent.prototype, "userId", void 0);
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
+    ], UserConfirmedComponent.prototype, "confirmedChange", void 0);
+    UserConfirmedComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-user-confirmed',
+            template: __webpack_require__(/*! ./user-confirmed.component.html */ "./src/app/views/user/user-confirmed.component.html"),
+        }),
+        __metadata("design:paramtypes", [_user_user_service__WEBPACK_IMPORTED_MODULE_1__["UserService"]])
+    ], UserConfirmedComponent);
+    return UserConfirmedComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/views/user/user-dialog.component.html":
+/*!*******************************************************!*\
+  !*** ./src/app/views/user/user-dialog.component.html ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<form [formGroup]=\"form\" (ngSubmit)=\"submit(form)\">\n    <h1 mat-dialog-title>Adding or modifying a user</h1>\n    <mat-dialog-content>\n        <mat-form-field>\n            <input matInput formControlName=\"email\" placeholder=\"Email\">\n        </mat-form-field>\n    </mat-dialog-content>\n    <mat-dialog-content>\n        <mat-form-field>\n            <input matInput formControlName=\"firstname\" placeholder=\"Firstname\">\n        </mat-form-field>\n    </mat-dialog-content>\n    <mat-dialog-content>\n        <mat-form-field>\n            <input matInput formControlName=\"lastname\" placeholder=\"Lastname\">\n        </mat-form-field>\n    </mat-dialog-content>\n    <mat-dialog-actions>\n        <button mat-button type=\"submit\">Add</button>\n        <button mat-button type=\"button\" mat-dialog-close>Cancel</button>\n    </mat-dialog-actions>\n</form>"
+
+/***/ }),
+
+/***/ "./src/app/views/user/user-dialog.component.ts":
+/*!*****************************************************!*\
+  !*** ./src/app/views/user/user-dialog.component.ts ***!
+  \*****************************************************/
+/*! exports provided: UserDialogComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserDialogComponent", function() { return UserDialogComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _user_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./user.service */ "./src/app/views/user/user.service.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (undefined && undefined.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+var UserDialogComponent = /** @class */ (function () {
+    function UserDialogComponent(formBuilder, userDialogRef, userService, user) {
+        this.formBuilder = formBuilder;
+        this.userDialogRef = userDialogRef;
+        this.userService = userService;
+        this.user = user;
+    }
+    UserDialogComponent.prototype.ngOnInit = function () {
+        this.form = this.formBuilder.group({
+            email: this.user ? this.user.email : '',
+            firstname: this.user ? this.user.firstname : '',
+            lastname: this.user ? this.user.lastname : ''
+        });
+    };
+    UserDialogComponent.prototype.submit = function (form) {
+        this.userDialogRef.close(form.value);
+    };
+    UserDialogComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            template: __webpack_require__(/*! ./user-dialog.component.html */ "./src/app/views/user/user-dialog.component.html"),
+        }),
+        __param(3, Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Inject"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MAT_DIALOG_DATA"])),
+        __metadata("design:paramtypes", [_angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"],
+            _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialogRef"],
+            _user_service__WEBPACK_IMPORTED_MODULE_3__["UserService"], Object])
+    ], UserDialogComponent);
+    return UserDialogComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/views/user/user-edit.component.html":
+/*!*****************************************************!*\
+  !*** ./src/app/views/user/user-edit.component.html ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<button mat-button (click)=\"openUserDialog()\">Add a user</button>"
+
+/***/ }),
+
+/***/ "./src/app/views/user/user-edit.component.ts":
+/*!***************************************************!*\
+  !*** ./src/app/views/user/user-edit.component.ts ***!
+  \***************************************************/
+/*! exports provided: UserEditComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "UserEditComponent", function() { return UserEditComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _user_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./user.service */ "./src/app/views/user/user.service.ts");
+/* harmony import */ var _user_dialog_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./user-dialog.component */ "./src/app/views/user/user-dialog.component.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var UserEditComponent = /** @class */ (function () {
+    function UserEditComponent(matDialog, userService) {
+        this.matDialog = matDialog;
+        this.userService = userService;
+        this.userEditedEvent = new _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"]();
+    }
+    UserEditComponent.prototype.ngOnChanges = function () {
+    };
+    UserEditComponent.prototype.openUserDialog = function (existingUser) {
+        var _this = this;
+        this.userDialogRef = this.matDialog.open(_user_dialog_component__WEBPACK_IMPORTED_MODULE_3__["UserDialogComponent"], {
+            hasBackdrop: false,
+            data: {
+                user: existingUser
+            }
+        });
+        this.userDialogRef
+            .afterClosed()
+            .subscribe(function (user) {
+            // TODO validate the edited user
+            if (user) {
+                if (user.id) {
+                    _this.userService.fullUpdate(existingUser)
+                        .subscribe(function (updatedUser) {
+                        _this.userEditedEvent.emit(updatedUser);
+                        // TODO Add a hint that the user has been added
+                    });
+                }
+                else {
+                    _this.userService.add(user)
+                        .subscribe(function (addedUser) {
+                        _this.userEditedEvent.emit(addedUser);
+                        // TODO Add a hint that the user has been updated
+                    });
+                }
+            }
+        });
+    };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Output"])(),
+        __metadata("design:type", _angular_core__WEBPACK_IMPORTED_MODULE_0__["EventEmitter"])
+    ], UserEditComponent.prototype, "userEditedEvent", void 0);
+    UserEditComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-user-edit',
+            template: __webpack_require__(/*! ./user-edit.component.html */ "./src/app/views/user/user-edit.component.html"),
+        }),
+        __metadata("design:paramtypes", [_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatDialog"],
+            _user_service__WEBPACK_IMPORTED_MODULE_2__["UserService"]])
+    ], UserEditComponent);
+    return UserEditComponent;
 }());
 
 
@@ -2870,7 +3134,7 @@ module.exports = "table {\n  width: 100%;\n}\n/*# sourceMappingURL=data:applicat
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>Users</h2>\n<mat-form-field>\n\t<input matInput (keyup)=\"search($event.target.value)\" placeholder=\"User name\" autocomplete=\"off\">\n</mat-form-field>\n\n<div class=\"example-container mat-elevation-z8\">\n\t<div class=\"example-loading-shade\" *ngIf=\"isLoadingResults || isRateLimitReached\">\n\t\t<mat-spinner *ngIf=\"isLoadingResults\"></mat-spinner>\n\t\t<div class=\"example-rate-limit-reached\" *ngIf=\"isRateLimitReached\">\n\t\t\tThe user api rate limit has been reached. It will be reset in one minute.\n\t\t</div>\n\t</div>\n\n\t<div class=\"\">\n\t\t<table class=\"\" mat-table [dataSource]=\"dataSource\" matSort matSortActive=\"email\" matSortDisableClear matSortDirection=\"asc\">\n\t\t\t<ng-container matColumnDef=\"id\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">{{user.id}}</td>\n\t\t\t</ng-container>\n\n\t\t\t<ng-container matColumnDef=\"firstname\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Firstname</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">{{user.firstname}}</td>\n\t\t\t</ng-container>\n\n\t\t\t<ng-container matColumnDef=\"lastname\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Lastname</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">{{user.lastname}}</td>\n\t\t\t</ng-container>\n\n\t\t\t<ng-container matColumnDef=\"email\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Email</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\"><a routerLink=\"/users/{{user.id}}\">{{user.email}}</a></td>\n\t\t\t</ng-container>\n\t\t\t<tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n\t\t\t<tr mat-row *matRowDef=\"let columnName; columns: displayedColumns;\"></tr>\n\t\t</table>\n\t</div>\n\n\t<mat-paginator [length]=\"totalElements\" [pageSize]=\"elementsPerPage\"></mat-paginator>\n</div>"
+module.exports = "<mat-form-field>\n\t<input matInput (keyup)=\"search($event.target.value)\" placeholder=\"Search...\" autocomplete=\"off\">\n</mat-form-field>\n\n<app-user-edit (userEditedEvent)=\"refreshList($event)\"></app-user-edit>\n\n<div class=\"example-container mat-elevation-z8\">\n\t<div class=\"example-loading-shade\" *ngIf=\"isLoadingResults || isRateLimitReached\">\n\t\t<mat-spinner *ngIf=\"isLoadingResults\"></mat-spinner>\n\t\t<div class=\"example-rate-limit-reached\" *ngIf=\"isRateLimitReached\">\n\t\t\tThe user api rate limit has been reached. It will be reset in one minute.\n\t\t</div>\n\t</div>\n\n\t<div>\n\t\t<table class=\"\" mat-table [dataSource]=\"dataSource\" matSort matSortActive=\"email\" matSortDisableClear matSortDirection=\"asc\">\n\t\t\t<ng-container matColumnDef=\"id\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Id</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">{{user.id}}</td>\n\t\t\t</ng-container>\n\n\t\t\t<ng-container matColumnDef=\"firstname\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Firstname</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">{{user.firstname}}</td>\n\t\t\t</ng-container>\n\n\t\t\t<ng-container matColumnDef=\"lastname\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Lastname</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">{{user.lastname}}</td>\n\t\t\t</ng-container>\n\n\t\t\t<ng-container matColumnDef=\"email\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Email</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">\n\t\t\t\t\t<a routerLink=\"/users/{{user.id}}\">{{user.email}}</a>\n\t\t\t\t</td>\n\t\t\t</ng-container>\n\n\t\t\t<ng-container matColumnDef=\"confirmed\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Confirmed</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">\n\t\t\t\t\t<app-user-confirmed [userId]=\"user.id\" (confirmedChange)=\"displayConfirmed($event)\"></app-user-confirmed>\n\t\t\t\t</td>\n\t\t\t</ng-container>\n\n\n\t\t\t<ng-container matColumnDef=\"actions\">\n\t\t\t\t<th mat-header-cell *matHeaderCellDef mat-sort-header>Actions</th>\n\t\t\t\t<td mat-cell *matCellDef=\"let user\">\n\t\t\t\t\t<button (click)=\"openUserDialog(user.id)\">Edit the user</button>\n\t\t\t\t</td>\n\t\t\t</ng-container>\n\n\t\t\t<tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n\t\t\t<tr mat-row *matRowDef=\"let columnName; columns: displayedColumns;\"></tr>\n\t\t</table>\n\t</div>\n\n\t<mat-paginator [length]=\"totalElements\" [pageSize]=\"elementsPerPage\"></mat-paginator>\n</div>"
 
 /***/ }),
 
@@ -2914,7 +3178,7 @@ var UsersComponent = /** @class */ (function () {
         this.userService = userService;
         this.paginationService = paginationService;
         this.messageService = messageService;
-        this.displayedColumns = ['id', 'email', 'firstname', 'lastname'];
+        this.displayedColumns = ['id', 'email', 'confirmed', 'firstname', 'lastname'];
         this.elementsPerPage = 5;
         this.isLoadingResults = true;
         this.isRateLimitReached = false;
@@ -2963,20 +3227,19 @@ var UsersComponent = /** @class */ (function () {
             this.paginator.firstPage();
         }
     };
+    // TODO This is never called yet
     UsersComponent.prototype.onSelect = function (user) {
         this.messageService.add('Selected the user ' + user.email);
     };
-    UsersComponent.prototype.add = function (email) {
-        email = email.trim();
-        if (!name) {
-            return;
-        }
-        this.userService.add({ email: email })
-            .subscribe(function (user) {
-        });
-    };
+    // TODO Add a delete button at the end of the row
     UsersComponent.prototype.delete = function (user) {
         this.userService.delete(user).subscribe();
+    };
+    UsersComponent.prototype.displayConfirmed = function (userId) {
+        console.log('Toggled the mail confirmed status for the user with id: ' + userId);
+    };
+    UsersComponent.prototype.refreshList = function (user) {
+        console.log('Edited the user: ' + user.id);
     };
     __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ViewChild"])(_angular_material__WEBPACK_IMPORTED_MODULE_1__["MatPaginator"]),
