@@ -7,12 +7,12 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/stephaneeybert/ng-zero/4.ef02759991b9f75a91c8.js",
+        "/stephaneeybert/ng-zero/4.99e0df678aa300fcfb42.js",
         "/stephaneeybert/ng-zero/favicon.ico",
         "/stephaneeybert/ng-zero/index.html",
-        "/stephaneeybert/ng-zero/main.8012362c8ef638dc12af.js",
+        "/stephaneeybert/ng-zero/main.6d5f731ed78794ddc1b3.js",
         "/stephaneeybert/ng-zero/polyfills.eba1d61bda8f41298ad5.js",
-        "/stephaneeybert/ng-zero/runtime.c87aaafb9d392a189fb0.js",
+        "/stephaneeybert/ng-zero/runtime.f732bde08ec28400ac68.js",
         "/stephaneeybert/ng-zero/styles.671788d9bbc68444d448.css"
       ],
       "patterns": []
@@ -36,7 +36,7 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/stephaneeybert/ng-zero/4.ef02759991b9f75a91c8.js": "315968d97b45702795b77489f32487ff205ac984",
+    "/stephaneeybert/ng-zero/4.99e0df678aa300fcfb42.js": "6c1013f4ced24beee45d37718ea359faab7b4875",
     "/stephaneeybert/ng-zero/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/stephaneeybert/ng-zero/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/stephaneeybert/ng-zero/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -46,10 +46,10 @@
     "/stephaneeybert/ng-zero/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/stephaneeybert/ng-zero/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/stephaneeybert/ng-zero/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/stephaneeybert/ng-zero/index.html": "94b4a9daf9d67c2be17c09b66558f7e13c29c497",
-    "/stephaneeybert/ng-zero/main.8012362c8ef638dc12af.js": "b076d102c13fdc1e9cd9fd7d552750aacd5c80f2",
+    "/stephaneeybert/ng-zero/index.html": "7e752faea79e776abd25ad3ac93f7a70498abc7f",
+    "/stephaneeybert/ng-zero/main.6d5f731ed78794ddc1b3.js": "9a4222bf5b101adfd2d62dffc596d28aa1ebecd6",
     "/stephaneeybert/ng-zero/polyfills.eba1d61bda8f41298ad5.js": "17a2b5db5beceb3afdeccd08f75a9bf98d549060",
-    "/stephaneeybert/ng-zero/runtime.c87aaafb9d392a189fb0.js": "f50a0251a626ec82408813c6bc8161476682fb09",
+    "/stephaneeybert/ng-zero/runtime.f732bde08ec28400ac68.js": "2fe7a1588c86b41f6f8594abfcd198e10cd26065",
     "/stephaneeybert/ng-zero/styles.671788d9bbc68444d448.css": "2e6d11321b9ddbc8b75155f34b65eb2194bc35cd"
   },
   "navigationUrls": [
