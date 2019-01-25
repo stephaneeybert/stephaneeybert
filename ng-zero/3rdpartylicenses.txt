@@ -481,13 +481,6 @@ SOFTWARE.
 
 @angular/material/table
 
-@angular/material/select
-
-@angular/material/paginator
-
-@angular/service-worker
-MIT
-
 rxjs-compat
 Apache-2.0
                                Apache License
@@ -693,6 +686,13 @@ Apache-2.0
  limitations under the License.
  
 
+
+@angular/material/select
+
+@angular/material/paginator
+
+@angular/service-worker
+MIT
 
 zone.js
 MIT
