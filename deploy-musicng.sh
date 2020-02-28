@@ -12,3 +12,5 @@ git add musicng/
 git commit -m "Deployed the musicng application the `date +%Y-%m-%d` at `date +%H:%M`"
 git pull
 git push
+
+# Open in the browser at https://stephaneeybert.github.io/stephaneeybert/musicng/
