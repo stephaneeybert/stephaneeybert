@@ -7,7 +7,7 @@
 cd ~/dev/github/pages/stephaneeybert
 git rm -r musicng/*
 mkdir musicng
-cp -R ~/dev/js/projects/angular/musicng/deploy/* ./musicng/
+cp -R ~/dev/js/projects/angular/musicng/dist/* ./musicng/
 
 git add musicng/
 git commit -m "Deployed the musicng application the `date +%Y-%m-%d` at `date +%H:%M`"
