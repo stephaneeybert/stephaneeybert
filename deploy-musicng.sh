@@ -2,7 +2,7 @@
 
 # Building the project for the Git Pages project
 # ng build --prod --base-href /stephaneeybert/musicng/
-# cp  dist/index.html dist/404.html
+# cp dist/index.html dist/404.html
 
 cd ~/dev/github/pages/stephaneeybert
 git rm -r musicng/*
