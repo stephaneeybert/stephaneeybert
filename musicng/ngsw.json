@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1583057944737,
+  "timestamp": 1583061095450,
   "index": "/stephaneeybert/musicng/index.html",
   "assetGroups": [
     {
@@ -23,13 +23,34 @@
       "name": "assets",
       "installMode": "lazy",
       "updateMode": "prefetch",
-      "urls": [],
+      "urls": [
+        "/stephaneeybert/musicng/assets/i18n/en.json",
+        "/stephaneeybert/musicng/assets/i18n/fr.json",
+        "/stephaneeybert/musicng/assets/icons/icon-128x128.png",
+        "/stephaneeybert/musicng/assets/icons/icon-144x144.png",
+        "/stephaneeybert/musicng/assets/icons/icon-152x152.png",
+        "/stephaneeybert/musicng/assets/icons/icon-192x192.png",
+        "/stephaneeybert/musicng/assets/icons/icon-384x384.png",
+        "/stephaneeybert/musicng/assets/icons/icon-512x512.png",
+        "/stephaneeybert/musicng/assets/icons/icon-72x72.png",
+        "/stephaneeybert/musicng/assets/icons/icon-96x96.png"
+      ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
     "/stephaneeybert/musicng/1.ee6fb08ccb1b0f79d1d3.js": "8155a08f82e3df3daf09f4ae20704a70dca2ff92",
+    "/stephaneeybert/musicng/assets/i18n/en.json": "7b90ba3e671d52132f71a04e4954da6d14270358",
+    "/stephaneeybert/musicng/assets/i18n/fr.json": "f5a76563c591043d8ea55a767c999bc068de3cfb",
+    "/stephaneeybert/musicng/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/stephaneeybert/musicng/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/stephaneeybert/musicng/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/stephaneeybert/musicng/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/stephaneeybert/musicng/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/stephaneeybert/musicng/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/stephaneeybert/musicng/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/stephaneeybert/musicng/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/stephaneeybert/musicng/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
     "/stephaneeybert/musicng/index.html": "17f6fc3a3ab9f2143cf5c45e0c2822812517cb3c",
     "/stephaneeybert/musicng/main.742466cd13be92e91920.js": "fd93d7c2afa44b447077c3415bcb29b8c2b78972",
