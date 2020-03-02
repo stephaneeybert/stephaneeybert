@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1583095973000,
+  "timestamp": 1583154821210,
   "index": "/stephaneeybert/pierrepapierciseaux/index.html",
   "assetGroups": [
     {
@@ -58,7 +58,7 @@
     "/stephaneeybert/pierrepapierciseaux/assets/icons/rock-paper-scissors.png": "8bb07d912dce22238b0b8f5166efdf9c51974ae2",
     "/stephaneeybert/pierrepapierciseaux/assets/icons/rock.jpg": "0c849b4f7d79044a9dad63befc6005c39c1508a6",
     "/stephaneeybert/pierrepapierciseaux/favicon.ico": "276464fc9e3f7760055826b98cddf683d82c414f",
-    "/stephaneeybert/pierrepapierciseaux/index.html": "6fba6920c70253f6cb74cef5858e049798ed3dc5",
+    "/stephaneeybert/pierrepapierciseaux/index.html": "8ec000fddd5fd05707626ddd37d538c1bbcd8151",
     "/stephaneeybert/pierrepapierciseaux/main-es2015.07205e2c9d9878b93592.js": "b0255293229d86327701d0c4eb0270ca7e0cce8c",
     "/stephaneeybert/pierrepapierciseaux/main-es5.07205e2c9d9878b93592.js": "9add30dce6dfdab0016e5ca608c3b1539af0b5cc",
     "/stephaneeybert/pierrepapierciseaux/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
