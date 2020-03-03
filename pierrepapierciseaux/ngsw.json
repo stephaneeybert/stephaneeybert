@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1583154821210,
+  "timestamp": 1583267922373,
   "index": "/stephaneeybert/pierrepapierciseaux/index.html",
   "assetGroups": [
     {
@@ -10,8 +10,8 @@
       "urls": [
         "/stephaneeybert/pierrepapierciseaux/favicon.ico",
         "/stephaneeybert/pierrepapierciseaux/index.html",
-        "/stephaneeybert/pierrepapierciseaux/main-es2015.07205e2c9d9878b93592.js",
-        "/stephaneeybert/pierrepapierciseaux/main-es5.07205e2c9d9878b93592.js",
+        "/stephaneeybert/pierrepapierciseaux/main-es2015.a08abc2231f469240b54.js",
+        "/stephaneeybert/pierrepapierciseaux/main-es5.a08abc2231f469240b54.js",
         "/stephaneeybert/pierrepapierciseaux/polyfills-es2015.ca64e4516afbb1b890d5.js",
         "/stephaneeybert/pierrepapierciseaux/polyfills-es5.277e2e1d6fb2daf91a5c.js",
         "/stephaneeybert/pierrepapierciseaux/runtime-es2015.0811dcefd377500b5b1a.js",
@@ -58,9 +58,9 @@
     "/stephaneeybert/pierrepapierciseaux/assets/icons/rock-paper-scissors.png": "8bb07d912dce22238b0b8f5166efdf9c51974ae2",
     "/stephaneeybert/pierrepapierciseaux/assets/icons/rock.jpg": "0c849b4f7d79044a9dad63befc6005c39c1508a6",
     "/stephaneeybert/pierrepapierciseaux/favicon.ico": "276464fc9e3f7760055826b98cddf683d82c414f",
-    "/stephaneeybert/pierrepapierciseaux/index.html": "8ec000fddd5fd05707626ddd37d538c1bbcd8151",
-    "/stephaneeybert/pierrepapierciseaux/main-es2015.07205e2c9d9878b93592.js": "b0255293229d86327701d0c4eb0270ca7e0cce8c",
-    "/stephaneeybert/pierrepapierciseaux/main-es5.07205e2c9d9878b93592.js": "9add30dce6dfdab0016e5ca608c3b1539af0b5cc",
+    "/stephaneeybert/pierrepapierciseaux/index.html": "f97288f815d8e93d397c507e504e122c25bfebdc",
+    "/stephaneeybert/pierrepapierciseaux/main-es2015.a08abc2231f469240b54.js": "08be69ce0f4d4d4e84cce3b2eea24a91d298e780",
+    "/stephaneeybert/pierrepapierciseaux/main-es5.a08abc2231f469240b54.js": "65e9bcb86e7d46045490ac2d4f4e496c4145f9f4",
     "/stephaneeybert/pierrepapierciseaux/polyfills-es2015.ca64e4516afbb1b890d5.js": "8779ed8d9bf0580e1b50b352a9b8fd520be24433",
     "/stephaneeybert/pierrepapierciseaux/polyfills-es5.277e2e1d6fb2daf91a5c.js": "8d03638471d7374e81cf33adfdea439f84ac3873",
     "/stephaneeybert/pierrepapierciseaux/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
