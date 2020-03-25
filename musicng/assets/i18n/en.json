@@ -7,15 +7,25 @@
     "share": "Share"
   },
   "menu": {
-    "music": "Music",
-    "music_generator": "The music generator"
+    "soundtrack": "Soundtrack",
+    "soundtrack.description": "The soundtrack generator",
+    "device": "Devices",
+    "device.description": "The plugged-in devices",
+    "users": "Users",
+    "users.description": "The users",
+    "login": "Log in",
+    "login.description": "Log in the application",
+    "logout": "Log out",
+    "logout.description": "Log me out of the application"
   },
   "header": {
     "home": "Home",
     "users": "Users",
     "dashboard": "Dashboard",
+    "logout": "Logout",
     "music": "Music",
-    "logout": "Logout"
+    "soundtrack": "Soundtrack",
+    "device": "Devices"
   },
   "user": {
     "form": {

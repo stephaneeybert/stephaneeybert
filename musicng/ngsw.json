@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1583412572376,
+  "timestamp": 1585125221261,
   "index": "/stephaneeybert/musicng/index.html",
   "assetGroups": [
     {
@@ -8,13 +8,13 @@
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "/stephaneeybert/musicng/1.ee6fb08ccb1b0f79d1d3.js",
+        "/stephaneeybert/musicng/5.baf9d7d72f03942462c1.js",
         "/stephaneeybert/musicng/favicon.ico",
         "/stephaneeybert/musicng/index.html",
-        "/stephaneeybert/musicng/main.8b51a43d175ecac9167c.js",
-        "/stephaneeybert/musicng/polyfills-es5.dccb1fce61c2267fba2b.js",
-        "/stephaneeybert/musicng/polyfills.95117fc27de132239099.js",
-        "/stephaneeybert/musicng/runtime.641829e7d456f1afc88d.js",
+        "/stephaneeybert/musicng/main.12a9c3dc769cea08daa8.js",
+        "/stephaneeybert/musicng/polyfills-es5.9b8175bd340a51ec12f0.js",
+        "/stephaneeybert/musicng/polyfills.2073944e1cc77965a8c7.js",
+        "/stephaneeybert/musicng/runtime.77b1b1e838688667c42f.js",
         "/stephaneeybert/musicng/styles.41e2085a1b4f71c1a65e.css"
       ],
       "patterns": []
@@ -40,9 +40,9 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/stephaneeybert/musicng/1.ee6fb08ccb1b0f79d1d3.js": "8155a08f82e3df3daf09f4ae20704a70dca2ff92",
-    "/stephaneeybert/musicng/assets/i18n/en.json": "7b90ba3e671d52132f71a04e4954da6d14270358",
-    "/stephaneeybert/musicng/assets/i18n/fr.json": "f5a76563c591043d8ea55a767c999bc068de3cfb",
+    "/stephaneeybert/musicng/5.baf9d7d72f03942462c1.js": "c079fe8f9a854706c55615f858f3800747eafca5",
+    "/stephaneeybert/musicng/assets/i18n/en.json": "b14680d1c4bf48dce8ff0f4e61dd9397a5f91619",
+    "/stephaneeybert/musicng/assets/i18n/fr.json": "5c3edf2bfef570563d410f0b1aa63f6047586878",
     "/stephaneeybert/musicng/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/stephaneeybert/musicng/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
     "/stephaneeybert/musicng/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
@@ -52,11 +52,11 @@
     "/stephaneeybert/musicng/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/stephaneeybert/musicng/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/stephaneeybert/musicng/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "/stephaneeybert/musicng/index.html": "7dba1adfbc7d7e3e83f614417ef8f24002020ccd",
-    "/stephaneeybert/musicng/main.8b51a43d175ecac9167c.js": "6b4f7eb11a9bcdb26d9b2035cd9e187bdbc4d7f5",
-    "/stephaneeybert/musicng/polyfills-es5.dccb1fce61c2267fba2b.js": "22deedadc31167e75a6b6c2a165f4072ade2e44d",
-    "/stephaneeybert/musicng/polyfills.95117fc27de132239099.js": "8643bf6e718d390d8512aa35e764df3d2d2a7a24",
-    "/stephaneeybert/musicng/runtime.641829e7d456f1afc88d.js": "4d37f2d91a0993c9b752eb2fac3e29a38df3e5e2",
+    "/stephaneeybert/musicng/index.html": "600270eb1b00e5a638db6b2dc2b8ec09a5b658eb",
+    "/stephaneeybert/musicng/main.12a9c3dc769cea08daa8.js": "df72bb727060e5fa9dd275546ff70b8da76ecebb",
+    "/stephaneeybert/musicng/polyfills-es5.9b8175bd340a51ec12f0.js": "7030edd58f0997307938ea69b527c68fad710342",
+    "/stephaneeybert/musicng/polyfills.2073944e1cc77965a8c7.js": "ae437a3be62ba50c1f9e45415bd3e8b46f1a30c0",
+    "/stephaneeybert/musicng/runtime.77b1b1e838688667c42f.js": "7ed48326eb3de77b3d0fb0fdd092685ad918572a",
     "/stephaneeybert/musicng/styles.41e2085a1b4f71c1a65e.css": "53be53365507fad64ab77aae052d87b540df1da3"
   },
   "navigationUrls": [
