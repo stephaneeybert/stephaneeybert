@@ -21,7 +21,6 @@
   "header": {
     "home": "Home",
     "users": "Utilisateurs",
-    "dashboard": "Tableau de bord",
     "logout": "Déconnexion",
     "music": "Musique",
     "soundtrack": "Musique",
@@ -40,9 +39,6 @@
       "save": "Enregistrer",
       "cancel": "Annuler"
     }
-  },
-  "dashboard": {
-    "title": "Les utilisateurs"
   },
   "toast": {
     "close": "Fermer"

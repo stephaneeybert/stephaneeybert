@@ -21,7 +21,6 @@
   "header": {
     "home": "Home",
     "users": "Users",
-    "dashboard": "Dashboard",
     "logout": "Logout",
     "music": "Music",
     "soundtrack": "Soundtrack",
@@ -40,9 +39,6 @@
       "save": "Save",
       "cancel": "Cancel"
     }
-  },
-  "dashboard": {
-    "title": "The users"
   },
   "toast": {
     "close": "Close"
