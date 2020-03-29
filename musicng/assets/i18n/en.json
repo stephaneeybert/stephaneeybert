@@ -27,6 +27,10 @@
     "soundtrack": "Soundtrack",
     "device": "Devices"
   },
+  "devices": {
+    "title": "Connected devices",
+    "none": "There are no plugged-in devices."
+  },
   "user": {
     "form": {
       "title": "Create or update a user",

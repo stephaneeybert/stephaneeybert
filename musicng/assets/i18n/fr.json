@@ -27,6 +27,10 @@
     "soundtrack": "Musique",
     "device": "Appareils"
   },
+  "devices": {
+    "title": "Appareils connectés",
+    "none": "Il n'y a pas d'appareils connectés."
+  },
   "user": {
     "form": {
       "title": "Créer ou mettre à jour un utilisateur",
