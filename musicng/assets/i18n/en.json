@@ -45,7 +45,8 @@
           "required": "The name is required",
           "minlength": "The name requires more characters",
           "maxlength": "The name requires less characters",
-          "invalidPattern": "The name accepts only letters and numbers"
+          "invalidPattern": "The name accepts only letters and numbers",
+          "nameIsAlreadyUsed": "The name is already used by another soundtrack."
         }
       },
       "copyright": "Copyright:",
@@ -53,8 +54,10 @@
     },
     "message": {
       "added": "The soundtrack {{ name }} has been added.",
+      "maxNbReached": "The maximum number of soundtracks is reached. Delete a soundtrack before adding one.",
       "updated": "The soundtrack {{ name }} has been updated.",
-      "maxNbReached": "The maximum number of soundtracks is reached. Delete a soundtrack before adding one."
+      "deleted": "The soundtrack {{ name }} has been deleted.",
+      "notFound": "The soundtrack {{ name }} could not be found."
     }
   },
   "devices": {

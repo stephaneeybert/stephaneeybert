@@ -45,7 +45,8 @@
           "required": "Le nom est requis",
           "minlength": "Le nom requiers plus de lettres",
           "maxlength": "Le nom requiers moins de lettres",
-          "invalidPattern": "Le nom n'accepte que des lettres et des chiffres"
+          "invalidPattern": "Le nom n'accepte que des lettres et des chiffres",
+          "nameIsAlreadyUsed": "Le nom est déjà utilisé par un autre morceau."
         }
       },
       "copyright": "Droits d'auteur:",
@@ -53,8 +54,10 @@
     },
     "message": {
       "added": "Le morceau {{ name }} a été ajouté.",
+      "maxNbReached": "Le nombre maximum de morceaux est atteint. Veuillez supprimer un morceau avant d'en ajouter un.",
       "updated": "Le morceau {{ name }} a été modifié.",
-      "maxNbReached": "Le nombre maximum de morceaux est atteint. Veuillez supprimer un morceau avant d'en ajouter un."
+      "deleted": "Le morceau {{ name }} a été supprimé.",
+      "notFound": "Le morceau {{ name }} n'a pas pu être trouvé."
     }
 
   },
