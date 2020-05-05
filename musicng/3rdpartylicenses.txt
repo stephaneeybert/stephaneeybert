@@ -994,6 +994,8 @@ lib-i18n
 
 lib-pwa
 
+lib-toast
+
 midi-file
 ISC
 
