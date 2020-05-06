@@ -1052,6 +1052,8 @@ SOFTWARE.
 nexusui
 MIT
 
+ng-environmenter
+
 punycode
 MIT
 Copyright Mathias Bynens <https://mathiasbynens.be/>
