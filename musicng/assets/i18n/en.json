@@ -3,7 +3,16 @@
     "title": "MusicNG",
     "description": "A music generator",
     "like": "Like",
-    "share": "Share"
+    "share": "Share",
+    "pwa": {
+      "new_version_available": "A newer version of the application is available. Load the new version ?",
+      "install": {
+        "installOnDevice": "Install on my device",
+        "iosInstructions": "To install this web app on your device, tap the Menu button and the 'Add to Home screen' button",
+        "install": "INSTALL",
+        "cancel": "CANCEL"
+      }
+    }
   },
   "menu": {
     "soundtrack": "Soundtrack",
