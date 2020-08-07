@@ -62,7 +62,7 @@
           },
           "chordDuration": {
             "label": "Chord duration",
-            "tip": "The duration of a chord."
+            "tip": "The duration of a chord in BPM (beats per minute)."
           },
           "chordDurationUnit": {
             "label": "Duration unit",
@@ -110,6 +110,10 @@
             "label": "Number of chords",
             "tip": "The number of chords of the soundtrack."
           },
+          "melody": {
+            "label": "Melody track",
+            "tip": "Have a melody track when adding a new soundtrack."
+          },
           "harmony": {
             "label": "Harmony track",
             "tip": "Have a harmony track when adding a new soundtrack."
@@ -121,7 +125,33 @@
           "bass": {
             "label": "Bass track",
             "tip": "Have a bass track when adding a new soundtrack."
+          },
+          "velocity": {
+            "melody": {
+              "label": "Melody",
+              "tip": "The notes velocity of the melody track."
+            },
+            "harmony": {
+              "label": "Harmony",
+              "tip": "The notes velocity of the harmony track."
+            },
+            "drums": {
+              "label": "Drums",
+              "tip": "The notes velocity of the drums track."
+            },
+            "bass": {
+              "label": "Bass",
+              "tip": "The notes velocity of the bass track."
+            }
           }
+        },
+        "tracks": {
+          "label": "Tracks",
+          "tip": "The tracks to create when generating a new soundtrack."
+        },
+        "velocity": {
+          "label": "Velocity",
+          "tip": "The notes velocity allows for playing notes harder or not."
         },
         "animatedStave": {
           "label": "Animated stave",
