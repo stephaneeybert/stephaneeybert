@@ -1,0 +1,281 @@
+{
+  "app": {
+    "title": "MusicNG",
+    "description": "Un générateur de musique",
+    "like": "Aimer",
+    "share": "Partager",
+    "pwa": {
+      "new_version_available": "Une nouvelle version de l'application est disponible. Charger la nouvelle version ?",
+      "install": {
+        "installOnDevice": "Installer sur mon appareil",
+        "iosInstructions": "Pour installer cette app web sur votre appareil, veuillez cliquer sur le bouton Menu et sur le bouton Ajouter à l'écran d'accueil",
+        "question": "Installer sur l'appareil ?",
+        "install": "INSTALLER",
+        "cancel": "ANNULER"
+      }
+    }
+  },
+  "menu": {
+    "soundtrack": "Musique",
+    "soundtrack.description": "Le générateur de musique",
+    "device": "Appareils",
+    "device.description": "Les appareils branchés",
+    "settings-reset" : "Réinitialiser tous les paramètres",
+    "settings-reset.description": "Réinitialiser tous les paramètres à leurs valeurs originelles",
+    "users": "Utilisateurs",
+    "users.description": "Les utilisateurs",
+    "login": "Connexion",
+    "login.description": "Me connecter à l'application",
+    "logout": "Déconnexion",
+    "logout.description": "Me déconnecter de l'application",
+    "theme": "Thème",
+    "theme.description": "Choisr un thème de couleurs"
+  },
+  "theme": {
+    "dark-toggle": {
+      "label": "Thème sombre",
+      "tip": "Activer le thème sombre"
+    }
+  },
+  "header": {
+    "home": "Accueil",
+    "users": "Utilisateurs",
+    "logout": "Déconnexion",
+    "music": "Musique",
+    "soundtrack": "Musique",
+    "device": "Appareils",
+    "settings": "Paramètres",
+    "theme": "Thèmes"
+  },
+  "settings": {
+    "form": {
+      "title": "Paramètres",
+      "cancel": "Annuler",
+      "save": "Enregistrer",
+      "set": {
+        "generate": {
+          "tempoBpm": {
+            "label": "Tempo (bpm)",
+            "tip": "Le tempo de la mesure."
+          },
+          "timeSignature": {
+            "label": "Signature de temps",
+            "tip": "La signature de temps de la mesure."
+          },
+          "chordDuration": {
+            "label": "Durée d'accord",
+            "tip": "La durée d'un accord en BPM (beats par minute)."
+          },
+          "chordDurationUnit": {
+            "label": "Unité de durée",
+            "tip": "L'unité de la durée de l'accord."
+          },
+          "noteOctave": {
+            "label": "Octave",
+            "tip": "L'octave des notes."
+          },
+          "chordWidth": {
+            "label": "Largeur d'accord",
+            "tip": "Le nombre de notes dans un accord."
+          },
+          "method": {
+            "label": "Méthode de création",
+            "tip": "La méthode utilisée pour crée un morceau.",
+            "set": {
+              "random": {
+                "label": "Aléatoire seulement",
+                "tip": "Les accords sont sélectionnés au hasard."
+              },
+              "bonnusTable": {
+                "label": "Aléatoire avec une matrice de bonus",
+                "tip": "Les accords sont sélectionnés au hasard avec un bonus sur chaque accord augmentant ses chances d'être sélectionné."
+              }
+            }
+          },
+          "minBonus": {
+            "label": "Bonus minimum requis",
+            "tip": "Le bonus minimum requis pour permettre à l'accord d'être sélectionné. Un accord avec un bonus inférieur à ce mimimum, ne peut pas être sélectionné."
+          },
+          "doubleChord": {
+            "label": "Accord d'harmonie en double",
+            "tip": "Pour la piste d'harmonie, créer l'accord en double, de façon à avoir deux accords identiques qui se suivent."
+          },
+          "reverseDissimilarChord": {
+            "label": "Accord renversé",
+            "tip": "Si l'accord est trop dissemblable par rapport à son précédent alors créer un accord à partir d'un renversement du précédent."
+          },
+          "inpassingNote": {
+            "label": "Note de passage",
+            "tip": "Lors du choix d'une note pour un accord, régler la probabilité de choisir une note de passage."
+          },
+          "tonality": {
+            "label": "Tonalité",
+            "tip": "La tonalité de la première mesure."
+          },
+          "modulation": {
+            "label": "Modulation",
+            "tip": "Régler la probabilité d'avoir une modulation d'une tonalité à une autre."
+          },
+          "nbChords": {
+            "label": "Nombre d'accords",
+            "tip": "Le nombre d'accords du morceau."
+          },
+          "melody": {
+            "label": "Piste mélodie",
+            "tip": "Avoir une piste mélodie lors de l'ajout d'un nouveau morceau."
+          },
+          "harmony": {
+            "label": "Piste harmonie",
+            "tip": "Avoir une piste harmonie lors de l'ajout d'un nouveau morceau."
+          },
+          "drums": {
+            "label": "Piste percussions",
+            "tip": "Avoir une piste percussions lors de l'ajout d'un nouveau morceau."
+          },
+          "bass": {
+            "label": "Piste basse",
+            "tip": "Avoir une piste de basse lors de l'ajout d'un nouveau morceau."
+          },
+          "velocity": {
+            "melody": {
+              "label": "Melodie",
+              "tip": "La vélocité des notes de la piste melodie."
+            },
+            "harmony": {
+              "label": "Harmonie",
+              "tip": "La vélocité des notes de la piste harmonie."
+            },
+            "drums": {
+              "label": "Percussions",
+              "tip": "La vélocité des notes de la piste percussions."
+            },
+            "bass": {
+              "label": "Basse",
+              "tip": "La vélocité des notes de la piste de basse."
+            }
+          }
+        },
+        "tracks": {
+          "label": "Pistes",
+          "tip": "Les pistes à créer lors de la génération d'un nouveau morceau."
+        },
+        "velocity": {
+          "label": "Velocité",
+          "tip": "La vélocité des notes permet de jouer des notes fortement ou pas."
+        },
+        "animatedStave": {
+          "label": "Partition animée",
+          "tip": "Afficher une partie de la partition, animée sur une rangée."
+        },
+        "showKeyboard": {
+          "label": "Afficher le clavier",
+          "tip": "Un clavier peut être affiché au dessus de la partition de la piste."
+        }
+      }
+    },
+    "reset": {
+      "tip": "Réinitialiser tous les paramètres",
+      "form": {
+        "title": "Réinitialiser",
+        "statement": "Réinitialiser tous les paramètres à leurs valeurs d'origine",
+        "cancel": "Annuler",
+        "reset": "Réinitialiser"
+      }
+    },
+    "message": {
+      "saved": "Les paramètres ont été enregistré.",
+      "reset-ed": "Les paramètres ont été réinitialisés."
+    }
+  },
+  "music": {
+    "notation": {
+      "track": {
+        "melody": "Melodie",
+        "harmony": "Harmonie",
+        "drums": "Percussions",
+        "bass": "Basse"
+      }
+    }
+  },
+  "soundtracks": {
+    "assignedName": "Morceau",
+    "add": {
+      "tip": "Ajouter un nouveau morceau"
+    },
+    "download": {
+      "label": "Télécharger",
+      "tip": "Télécharger le morceau"
+    },
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "play": "Jouer",
+    "stop": "Arreter",
+    "replay": "Rejouer",
+    "form": {
+      "title": "Modifier un morceau",
+      "cancel": "Annuler",
+      "save": "Enregistrer",
+      "name": {
+        "label": "Nom:",
+        "hint": "Le nom du morceau",
+        "error": {
+          "required": "Le nom est requis",
+          "minlength": "Le nom est trop court",
+          "maxlength": "Le nom est trop long",
+          "invalidPattern": "Pas de caractères spéciaux",
+          "nameIsAlreadyUsed": "Ce nom est déjà utilisé"
+        }
+      },
+      "copyright": "Droits d'auteur:",
+      "lyrics": "Paroles:"
+    },
+    "message": {
+      "added": "Le morceau {{ name }} a été ajouté.",
+      "maxNbReached": "Le nombre maximum de morceaux est atteint. Veuillez supprimer un morceau avant d'en ajouter un.",
+      "updated": "Le morceau {{ name }} a été modifié.",
+      "deleted": "Le morceau {{ name }} a été supprimé.",
+      "notFound": "Le morceau {{ name }} n'a pas pu être trouvé."
+    }
+
+  },
+  "devices": {
+    "title": "Appareils MIDI connectés",
+    "none": "Il n'y a pas d'appareils MIDI connectés."
+  },
+  "synth": {
+    "sound": {
+      "switchOn": "Allumer le son"
+    }
+  },
+  "sheet": {
+    "error": {
+      "noSheetDrawing": "Le dessin des partitions n'est plus possible."
+    }
+  },
+  "user": {
+    "form": {
+      "title": "Créer ou mettre à jour un utilisateur",
+      "email": "Email",
+      "firstname": "Prénom",
+      "lastname": "Nom",
+      "save": "Enregistrer",
+      "cancel": "Annuler"
+    }
+  },
+  "message": {
+    "error": {
+      "reloadApp": "Veuillez recharger l'application."
+    }
+  },
+  "toast": {
+    "close": "Fermer"
+  },
+  "PAGINATOR": {
+    "ITEMS_PER_PAGE": "Eléments par page:",
+    "NEXT_PAGE": "Page suivante",
+    "PREVIOUS_PAGE": "Page précédente",
+    "FIRST_PAGE": "Première page",
+    "LAST_PAGE": "Dernière page",
+    "OUT_OF": "sur"
+  }
+}
