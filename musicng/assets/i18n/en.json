@@ -60,7 +60,15 @@
           },
           "timeSignature": {
             "label": "Time signature",
-            "tip": "The time signature of the measure."
+            "tip": "The time signature specifies the unit of time and the duration of the measure."
+          },
+          "timeSignatureNbOfTimeUnits": {
+            "label": "Number of units",
+            "tip": "The number of time units in the measure."
+          },
+          "timeSignatureTimeUnit": {
+            "label": "Unité de temps",
+            "tip": "The note shape for a beat."
           },
           "chordDuration": {
             "label": "Chord duration",
@@ -170,6 +178,10 @@
         "showKeyboard": {
           "label": "Show the keyboard",
           "tip": "A keyboard can be showed above the track stave."
+        },
+        "showAllNotes": {
+          "label": "Show all the notes",
+          "tip": "Show all the notes with their names on the stave."
         }
       }
     },
