@@ -116,9 +116,21 @@
             "label": "Note de passage",
             "tip": "Lors du choix d'une note pour un accord, régler la probabilité de choisir une note de passage."
           },
+          "bonusMin": {
+            "label": "Bonus minimum",
+            "tip": "Si un bonus minimum est spécifié alors ignorer les notes qui ont un bonus plus faible que le minimum."
+          },
+          "bonusRandom": {
+            "label": "Bonus aléatoire",
+            "tip": "Plus haute est la valeur aléatoire, moins le bonus a de poid et donc plus aléatoire est le choix de la note."
+          },
           "tonality": {
             "label": "Tonalité majeure",
             "tip": "La tonalité de la première mesure."
+          },
+          "generateOnlyMajorTonalities": {
+            "label": "Tonalitées majeures seulement",
+            "tip": "Moduler seulement sur les tonalités majeures en ignorant les tonalités mineures."
           },
           "modulation": {
             "label": "Modulation",
