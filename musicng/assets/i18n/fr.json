@@ -236,6 +236,9 @@
     },
     "edit": "Modifier",
     "delete": "Supprimer",
+    "recreate": "Recréer",
+    "crescendo": "Crescendo",
+    "decrescendo": "Decrescendo",
     "play": "Jouer",
     "stop": "Arreter",
     "replay": "Rejouer",
@@ -259,12 +262,12 @@
     },
     "message": {
       "added": "Le morceau {{ name }} a été ajouté.",
+      "regenerated": "Le morceau {{ name }} a été regénéré.",
       "maxNbReached": "Le nombre maximum de morceaux est atteint. Veuillez supprimer un morceau avant d'en ajouter un.",
       "updated": "Le morceau {{ name }} a été modifié.",
       "deleted": "Le morceau {{ name }} a été supprimé.",
       "notFound": "Le morceau {{ name }} n'a pas pu être trouvé."
     }
-
   },
   "devices": {
     "title": "Appareils MIDI connectés",
@@ -278,6 +281,29 @@
   "sheet": {
     "error": {
       "noSheetDrawing": "Le dessin des partitions n'est plus possible."
+    },
+    "menu": {
+      "crescendo": {
+        "label": "Crescendo",
+        "tip": "Crescendo depuis cet accord"
+      },
+      "decrescendo": {
+        "label": "Decrescendo",
+        "tip": "Decrescendo depuis cet accord"
+      },
+      "form": {
+        "title": "Tonalité",
+        "set": {
+          "tonality": {
+            "label": "Tonalité",
+            "tip": "Poursuivre avec la tonalité:"
+          },
+          "chord": {
+            "label": "Accord",
+            "tip": "Choisir l'accord:"
+          }
+        }
+      }
     }
   },
   "user": {
