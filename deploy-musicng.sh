@@ -1,7 +1,7 @@
 #!/bin/sh -x
 
 # Building the project for the Git Pages project
-# ng build --prod --base-href /stephaneeybert/musicng/
+# ng build --configuration production --base-href /stephaneeybert/musicng/
 # cp dist/musicng/index.html dist/musicng/404.html
 
 cd ~/dev/github/pages/stephaneeybert
