@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=1024, user-scalable=no" />
+
+    <title>Presentation</title>
+
+    <!-- Required stylesheet -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="/home/stephane/stuff/deckjs/deck.js/core/deck.core.css"
+    />
+
+    <!-- Extension CSS files go here. Remove or add as needed. -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="/home/stephane/stuff/deckjs/deck.js/extensions/scale/deck.scale.css"
+    />
+
+    <!-- Style theme. More available in /themes/style/ or create your own. -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="/home/stephane/stuff/deckjs/deck.js/themes/style/swiss.css"
+    />
+
+    <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+    <link
+      rel="stylesheet"
+      media="screen"
+      href="/home/stephane/stuff/deckjs/deck.js/themes/transition/horizontal-slide.css"
+    />
+
+    <!-- Basic black and white print styles -->
+    <link
+      rel="stylesheet"
+      media="print"
+      href="/home/stephane/stuff/deckjs/deck.js/core/print.css"
+    />
+
+    <!-- Required Modernizr file -->
+    <script src="/home/stephane/stuff/deckjs/deck.js/modernizr.custom.js"></script>
+
+    <style>
+      .center {
+        text-align: center;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #000;
+        text-align: center;
+      }
+      a, a:hover, a:focus, a:active, a:visited {
+        color: #000;
+        text-decoration: none;
+        font-size: .5em;
+        font-weight: bold;
+      }
+
+      blockquote {
+        font-style: normal;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="deck-container">
+      <section class="slide">
+        <h2>Un exemple d'annonce sur les statines</h2>
+        <section class="slide">
+          <blockquote>
+            <p>
+              L'étude JUNIPER annonce une réduction du risque cardiaque de 54%
+              !!
+            </p>
+            <p><cite>Le New England Journal of Medecine</cite></p>
+            <a href="https://youtu.be/Odvt4EaGPLw?t=610" target="_blank"
+              >Plus d'info</a
+            >
+          </blockquote>
+        </section>
+        <section class="slide">
+          <p class="center">Sauf que c'est un pourcentage en risque relatif.</p>
+          <p class="center">
+            Dit autrement, c'est une réduction de 2,5% à 1.5% des cas.
+          </p>
+        </section>
+      </section>
+
+      <section class="slide">
+        <h2>Un autre exemple d'annonce</h2>
+        <section class="slide">
+          <blockquote>
+            <p>Les statines n'affectent pas la mémoire !</p>
+            <p><cite>Le New York Times</cite></p>
+            <a href="https://youtu.be/Odvt4EaGPLw?t=724" target="_blank"
+              >Plus d'info</a
+            >
+          </blockquote>
+        </section>
+        <section class="slide">
+          <p>Dans cette étude, sur un groupe de 490 000 personnes sous statines 376 000 ont déclaré de sévères pertes de mémoire.</p>
+          <p>Le groupe témoin n'ayant eu que 114 000 personnes ayant déclaré cette même perte de mémoire.</p>
+        </section>
+        <section class="slide">
+          <p>C'est donc une augmentation de 320% du risque de perte sévère de mémoire si l'on prend des statines.</p>
+        </section>
+      </section>
+
+      <section class="slide">
+        <h2>Une étude qui dit tout autre chose</h2>
+        <section class="slide">
+          <blockquote>
+            <p>Chez les personnes de 60 ans et plus, plus leur "mauvais" cholestérol LDL est haut, plus elles vivent longtemps.</p>
+            <p><cite>Le British Medical Journal</cite></p>
+            <a href="http://bmjopen.bmj.com/content/6/6/e010401.full.pdf+html" target="_blank"
+              >Plus d'info</a
+            >
+          </blockquote>
+        </section>
+      </section>
+
+      <section class="slide">
+        <h2>Le cholestérol est produit par l'organisme</h2>
+        <section class="slide">
+          <p>Notre organisme produit 3 à 4 fois plus de cholestérol que ce que l'on en mange.</p>
+          <p>Il en produit plus quand on en mange moins. Et en produit moins quand on en mange plus.</p>
+          <p>Un régime ne peut au mieux réduire le cholestérol que de quelques pourcents.</p>
+        </section>
+      </section>
+    </div>
+
+    </div>
+
+    <!-- Required JS files. -->
+    <script src="/home/stephane/stuff/deckjs/deck.js/jquery.min.js"></script>
+    <script src="/home/stephane/stuff/deckjs/deck.js/core/deck.core.js"></script>
+
+    <!-- Extension JS files. Add or remove as needed. -->
+    <script src="/home/stephane/stuff/deckjs/deck.js/extensions/scale/deck.scale.js"></script>
+
+    <!-- Initialize the deck. You can put this in an external file if desired. -->
+    <script>
+      $(function () {
+        $.deck(".slide");
+      });
+    </script>
+  </body>
+</html>
